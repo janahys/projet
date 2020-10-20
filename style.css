@@ -1,0 +1,30 @@
+body { color: #777; font-size: 16px; font-family: sans-serif; margin: 0; padding: 0; }
+h1 { margin: 0px 0px 1em 0px; color: #ec5252; font-size: 1.7em; }
+h3 { margin: 0px 0px 1.5em 0px; color: #339999; font-size: 1.1em; font-weight: normal; letter-spacing: 2px; text-transform: uppercase; }
+a { color: #00a2ff; text-decoration: none; }
+
+header { height: 400px; background: #eee url(../img/download.jpg) no-repeat center; background-size: cover; margin-bottom: 50px; position: relative; }
+header a.logo { position: absolute; display: block; width: 145px; height: px;  padding-top:13px; left: 20px; }
+header a.logo span { display: none; }
+
+header h3{padding:100px 40px 0px; font-size: 1em;}
+header h1{padding:0px 40px 0px; font-size: 2em;}
+
+a.button{padding:15px 30px; margin-left:40px; border:2px solid #fff; color:rgb(153, 152, 152); border-radius: 40px;}
+
+article { width: 70%; float: left; margin-bottom: 75px; }
+article div { padding: 0px 40px 0px 40px; border-right: 1px solid #555; }
+aside { width: 30%; float: left; }
+aside div { padding: 0px 40px 0px 40px; }
+
+nav { background-color: #fff; position: relative; padding-left:180px; }
+
+
+@media screen and (max-width: 750px) {
+	
+	header a.logo { width: 120px; height: 44px; }
+	article { width: 100%; float: none; margin-bottom: 40px; }
+	article div { margin: 0px 40px; padding: 0px 0px 30px 0px; border-right: none; border-bottom: 1px solid #555; }
+	aside { width: 100%; float: none; }
+
+}
